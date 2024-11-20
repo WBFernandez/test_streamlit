@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Retrieve the password from secrets
-PASSWORD = st.secrets["general"]["password"]
+PASSWORD = st.secrets["password"]
 
 # Password prompt
 password = st.text_input("Enter the password:", type="password")
